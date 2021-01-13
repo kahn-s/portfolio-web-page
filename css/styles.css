@@ -1,0 +1,145 @@
+body {
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+
+/* ****************HEADER ******************/
+header {
+  background-color: #32442e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+header p {
+  color: #f4d58d;
+  display: flex;
+  font-size: 1.75em;
+}
+header nav li a {
+  color: #f4d58d;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  padding-right: 50px;
+}
+a:link {
+  color: #f4d58d;
+}
+a:hover {
+  color: #f6a9fb;
+}
+a:active {
+  color: #873b40;
+}
+a:visited {
+  color: #98408b;
+}
+/* ***************  MAIN  ******************/
+main {
+  background-color: #f4d58d;
+}
+#hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+h1 {
+  font-family: Volkorn, serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #32442e;
+  padding: 50px;
+  text-align: center;
+}
+img {
+  border: 40px #f4d58d solid;
+  width: 30%;
+}
+h2,
+h3,
+p {
+  font-family: Rubik;
+}
+h2 {
+  color: #873b40;
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+h3 {
+  color: #873b40;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+hr {
+  border-bottom: 3px #708d81 solid;
+  margin: 0 15%;
+}
+/***********************  ABOUT  *********************/
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 50px 150px;
+}
+
+/***********************  CONTACT  *********************/
+.content-wrapper {
+  margin: 50px 150px;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.half-width {
+  text-align: center;
+  width: 40%;
+}
+#contact p {
+  color: black;
+  text-align: center;
+}
+#contact a:link {
+  color: #32442e;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #873b40;
+}
+
+footer {
+  background-color: #32442e;
+}
+.social {
+  background-color: #32442e;
+  margin: 5% 20%;
+}
+.social h3 {
+  color: #f4d58d;
+  display: inline-block;
+  padding: 50px;
+  text-align: left;
+}
+.icon {
+  display: inline-block;
+  padding: 30px;
+}
+p .icon {
+  color: #f4d58d;
+}
