@@ -92,7 +92,7 @@ hr {
   border-bottom: 3px #708d81 solid;
   margin: 0 15%;
 }
-/***********************  ABOUT  *********************/
+/***********************  ABOUT *********************/
 #about {
   display: flex;
   justify-content: center;
@@ -100,23 +100,24 @@ hr {
   flex-flow: row wrap;
   margin: 5% 10%;
 }
-
-ol {
+.text-box {
   margin: 0;
   background-color: #708d81;
   border: 3px #873b40 solid;
   border-radius: 5%;
 }
-ol li {
-  list-style-position: inside;
-  list-style-type: decimal;
-}
-ol h3 {
+.text-box h3 {
   color: #f4d58d;
   font-size: 1.75em;
   text-align: center;
   text-transform: capitalize;
 }
+
+ol li {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
 ol li p {
   color: #f4d58d;
   font-size: 1.3em;
@@ -182,7 +183,7 @@ p .icon {
   img {
     width: 30%;
   }
-  ol {
+  .text-box {
     margin: 5% 15%;
   }
 }
