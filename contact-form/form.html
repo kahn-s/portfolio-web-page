@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Web-worthy</title>
+    <meta
+      name="description"
+      content="Offering web site development, elegant coding solutions."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--css.normalize downloaded from  https://necolas.github.io/normalize.css/8.0.1/normalize.css-->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,400;1,700&family=Vollkorn:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9a2f9ff48f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <p>Web-Worthy Development</p>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="/#about"> about</a></li>
+            <li><a href="/#portfolio">portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="form">
+        <h2>How can I help you?</h2>
+        <div class="group">
+          <div class="item-double">
+            <form
+              action="https://formspree.io/kahn.shari2@gmail.com"
+              method="POST"
+            >
+              <label for="user-name">Name:</label>
+              <input
+                id="user-name"
+                type="text"
+                name="name"
+                autofocus="on"
+                required
+              />
+
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="text" name="email" required />
+
+              <label for="user-message">Message:</label>
+              <textarea id="form-message" name="message"></textarea>
+
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
